@@ -1,0 +1,111 @@
+body{
+  background-color:#bbbec1;
+}
+
+h1{
+  text-align:center;
+  font-family:Orbitron,sans-serif;
+  
+  
+}
+.container{
+  
+  border:5px solid black;
+  min-height:300px;
+  max-width:400px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin: 100px auto;
+  box-shadow: 12px 6px 15px 12px #171616;
+-moz-box-shadow: 12px 6px 15px 12px #171616;
+-webkit-box-shadow: 12px 6px 15px 12px #171616;
+  
+}
+
+.container > *{
+  width:75px;
+  height:75px;
+  text-align:center;
+  font-size:30px;
+  font-weight:lighter;
+}
+
+#display{
+  background-color:black;
+  color:white;
+  height:60px;
+  display:flex;/*makes the numbers in display of flexbox type  */
+  flex:3 3 400px;
+  font-family:Orbitron,sans-serif;
+  font-size:1.3rem;
+  padding:20px;
+  
+}
+
+.display--numbers{
+  font-family:Orbitron;
+}
+
+.misc{
+  background-color:#B8BACF;
+  border:.5px solid gray;
+  flex:1 1 98px;
+}
+
+.operators {
+  background-color:orange;
+ border:.5px solid gray;
+  flex:1 1 98px;
+}
+
+.equal{
+  background-color:orange;
+ border:.5px solid gray;
+  flex:1 1 98px;
+}
+
+.numbers{
+  background-color:#C4CAD0;
+  flex:1 1 98px;
+  border:.5px solid gray;
+}
+
+#zero{
+  flex-grow:999;
+  
+}
+#dot{
+  flex-grow:999;
+  background-color:#C4CAD0;
+  font-size:40px;
+  border:.5px solid gray;
+}
+.equal{
+  flex-grow:1;
+}
+
+span{
+  display:block;
+}
+
+.btn{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.btn:hover {
+  background-color: yellow;
+}
+
+.label{
+  display:inline;
+  width:20px;dis
+  
+}
+
+button{
+  display:block;
+}
+
